@@ -1,0 +1,14 @@
+server:
+  port : 8080
+
+logging:
+  level:
+    org.springframework.web: debug
+    com.dmba.Start: trace
+
+elasticsearch:
+  host: localhost
+  port: '9200'
+  scheme: http
+  username: myusername
+  password: mypassword
